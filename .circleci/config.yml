@@ -4,7 +4,7 @@ version: 2.1
 
 jobs: 
 
-  build-and-test:  
+  build-and-test:
 
     machine: 
 
@@ -12,7 +12,7 @@ jobs:
 
         
 
-    steps: 
+    steps:
 
       - checkout 
       - run: make deps
@@ -28,4 +28,4 @@ workflows:
 
     jobs: 
 
-      - build-and-test 
+      - build-and-test
